@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="abf5bcda-5fd5-4804-a713-ab894fba813c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8084/MyTskmng" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MyTskmng.xsd" MetadataType="Schema" ID="e2120c14-6499-4c47-b091-5d382bdfb952" SourceId="1" SourceUrl="http://localhost:8084/MyTskmng?xsd=xsd0" />
+    <MetadataFile FileName="MyTskmng.disco" MetadataType="Disco" ID="819c941d-d77f-47f4-8f78-557a61716f43" SourceId="1" SourceUrl="http://localhost:8084/MyTskmng?disco" />
+    <MetadataFile FileName="TskMng.wsdl" MetadataType="Wsdl" ID="72b49a27-638b-44a5-b7ab-d935db095a05" SourceId="1" SourceUrl="http://localhost:8084/MyTskmng?wsdl" />
+    <MetadataFile FileName="MyTskmng1.xsd" MetadataType="Schema" ID="6f0429c4-93e7-4f2c-ba09-79825f703d3f" SourceId="1" SourceUrl="http://localhost:8084/MyTskmng?xsd=xsd1" />
+    <MetadataFile FileName="MyTskmng2.xsd" MetadataType="Schema" ID="7eaa5b88-f78c-4c95-bc02-3f57702f6197" SourceId="1" SourceUrl="http://localhost:8084/MyTskmng?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
